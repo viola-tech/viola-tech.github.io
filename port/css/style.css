@@ -1,0 +1,257 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	background: rgb(24, 121, 11);
+	
+	
+}
+.image-container{
+	position: relative;
+	padding: 5px;
+}
+
+.image-container img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 600px;
+	border-radius: 10px;
+	border:6px solid #1C478E;
+	margin-top: 20px;
+}
+
+
+
+label{
+	display:inline-block;
+	width:150px;
+}
+
+input{
+	margin:0 5px 0 5px;
+}
+		
+
+h2{
+	padding-bottom:10px;
+	padding-left: 20px;
+	font-size: 40px;
+	color: brown; 
+	padding-left: 350px;
+	text-align: left;
+}
+
+h3{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0 10px 0;
+	color:#000000;
+}
+
+h4{
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:5px;
+	color:black;
+}
+
+p{
+	margin:10px 0 10px 0;
+	font-size: 15px;
+}
+
+#container{
+	width: 1000px;
+	
+}
+
+
+
+
+
+#menu{
+	display:block;
+	clear:both;
+	width:1500px;
+	height:50px;
+	float:right;
+	background-color: whitesmoke;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:960px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: right;
+	height: 36px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding-top: 18px;
+	font-size: 15px;
+	padding-left:13px;
+	padding-right:0px;
+	
+}
+
+#menu a:hover{
+	color:grey;
+}
+
+
+
+
+#content{
+	display:block;
+	float:left;
+	min-height: 300vh;
+	overflow: hidden;
+	margin-top:25px;
+	margin-left:20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	width:1279px;
+	height:1400px;
+	background:whitesmoke;
+	padding:15px;
+	border-radius: 10px;
+
+	
+	
+}
+
+
+#content img.float{
+	float:right;
+	margin:15px;
+	height: 245px;
+}
+
+ .vio img{
+	float:left;
+	margin:15px;
+	width: 400px;
+	height: 400px;
+	padding-left: 15px;
+	border-radius: 55%;
+	border-width: 10px;
+	padding-right: 30px;
+	
+	padding-bottom: 30px;
+
+	
+}
+
+#content img.ri{
+	float:right;
+	margin:15px;
+	width: 450px;
+	height: 230px;
+	border: 1px solid blue;
+
+}
+
+
+
+
+
+
+
+.col{
+	display: flex;
+	text-align: left;
+
+}
+
+.mail{
+	flex-grow: 1;
+	flex-basis: 100%;
+
+}
+
+.insta{
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+
+
+.phone{
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+
+
+
+
+#current a{
+	color: #86AEF9;
+}
+
+
+
+
+.pro{
+	margin: 5px 5px 5px 5px;
+	height: 343px;
+	width: 1000px;
+
+
+}
+.centered{
+	position: absolute;
+	top: 176px;
+	left: 150px;
+	
+}
+    .whatsapp-float {
+        position: fixed;
+        bottom: 40px; 
+        right: 100px; 
+        z-index: 1000;
+    }
+
+    
+    .whatsapp-float img {
+        width: 60px; 
+        height: 60px; 
+        border: none; 
+    }
+
+	.image img{
+		height: 300px;
+		width: 288px;
+		border-radius: 55%;
+		justify-content: center;
+		padding-top: 5px;
+		margin-top: 40px;
+
+	
+	
+	}
+	.cr{
+	   padding-top: 20px;	
+	   padding-bottom: 20px;
+	   padding-left: 180px;
+	   padding-right: 180px;
+	}
+
+	.us ul li{
+		font-size: 40px;
+	}
